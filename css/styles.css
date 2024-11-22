@@ -611,6 +611,12 @@ margin-bottom: 4px;
 
    margin-bottom: 8px;
 }
+
+
+.modal-symbol{
+
+  position: relative;
+}
 .modal-input{
   width: 100%;
   height: 40px;
