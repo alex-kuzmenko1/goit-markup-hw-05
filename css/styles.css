@@ -634,6 +634,7 @@ h4 {
 .modal-symbol {
 
   position: relative;
+  margin-bottom: 16px;
 }
 
 .modal-input {
@@ -697,7 +698,7 @@ h4 {
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
-
+color: #8e8f99;
 }
 
 .checkbox-span{
@@ -713,8 +714,7 @@ fill: transparent;
 
 }
 
-input[type="checkbox"]:checked
-+.checkbox-label .checkbox-svg
+input[type="checkbox"]:checked + .checkbox-label .checkbox-svg
 {
 background-color: #404bbf; 
 border: none;
@@ -734,6 +734,10 @@ fill: #F4F4FD;
     border: 0;
 }
 
+
+.checkbox-link{
+  color: #4d5ae5;
+}
 .checkbox-button{
 
   display: block;
