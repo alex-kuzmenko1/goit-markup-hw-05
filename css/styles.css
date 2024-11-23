@@ -772,7 +772,8 @@ margin: 0 auto;
 .footer-form {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 24px;
+
 }
 
 
