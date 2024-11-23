@@ -714,7 +714,7 @@ fill: transparent;
 
 }
 
-input[type="checkbox"]:checked + .checkbox-label .checkbox-svg
+input[type="checkbox"]:checked + .checkbox-label .checkbox-span
 {
 background-color: #404bbf; 
 border: none;
@@ -722,6 +722,8 @@ fill: #F4F4FD;
 
 
 }
+
+
 
 .visually-hidden{
   position: absolute;
