@@ -23,12 +23,14 @@ img {
 a {
   text-decoration: none;
 }
+
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 h1,
 h2,
 h3,
@@ -151,16 +153,15 @@ p {
 .nav-link.current {
   color: #404bbf;
 }
+
 /* hero */
 .hero {
   padding: 188px 0;
-margin: 0 auto;
+  margin: 0 auto;
   letter-spacing: 0.4;
   background-color: #2e2f42;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
     url(../images/people-office-1.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
@@ -170,6 +171,7 @@ margin: 0 auto;
 
 
 }
+
 .hero-heading {
   margin: 0 auto;
   text-align: center;
@@ -230,6 +232,7 @@ h4 {
 .features {
   padding: 120px 0 120px;
 }
+
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
   width: 1px;
@@ -242,14 +245,17 @@ h4 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .features-list {
   display: flex;
   gap: 24px;
 }
+
 .features-heading .visually-hidden {
   line-height: 1.2;
   margin-bottom: 8px;
 }
+
 .features-images {
   display: flex;
   align-items: center;
@@ -278,10 +284,12 @@ h4 {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .team-item {
   display: flex;
   gap: 24px;
 }
+
 .team-list {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -300,6 +308,7 @@ h4 {
   width: 40px;
   height: 40px;
 }
+
 .team-link {
   width: 100%;
   height: 100%;
@@ -311,6 +320,7 @@ h4 {
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .team-icon {
   fill: #f4f4fd;
 }
@@ -322,6 +332,7 @@ h4 {
 .team-link:focus {
   background-color: #404bbf;
 }
+
 .div-info {
   padding: 32px 0;
 }
@@ -331,16 +342,19 @@ h4 {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .team-p {
   font-size: 16px;
   text-align: center;
   margin-bottom: 8px;
 }
+
 /* portfolio */
 .porfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .portfolio-heading {
   font-size: 36px;
   line-height: 1.11;
@@ -362,6 +376,7 @@ h4 {
   position: relative;
   overflow: hidden;
 }
+
 .portfolio-items {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -371,6 +386,7 @@ h4 {
   box-shadow: 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .portfolio-items:hover .portfolio-paragraph {
   transform: translateY(0%);
 }
@@ -415,6 +431,7 @@ h4 {
   color: #4d5ae5;
   padding: 100px 0;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -522,11 +539,11 @@ h4 {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
- 
+
 }
 
 .modal {
- 
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -542,14 +559,14 @@ h4 {
   background-color: #fcfcfc;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   padding: 72px 24px 24px 24px;
+  padding: 72px 24px 24px 24px;
 }
 
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
 }
 
-.close-button{
+.close-button {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -562,62 +579,64 @@ h4 {
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
-   cursor: pointer; 
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.close-button:hover{
+.close-button:hover {
 
   background-color: #404bbf;
-  border:none;
+  border: none;
   fill: #ffffff
 }
 
-.close-button:focus{
+.close-button:focus {
 
   background-color: #404bbf;
-  border:none;
+  border: none;
   fill: #ffffff
 }
 
-.modal-icon{
+.modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.modal-paragraph{
+.modal-paragraph {
 
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: #2E2F42 ;
-margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  margin-bottom: 16px;
 }
 
-.modal-label{
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color: #8e8f99;
-display: block;
-margin-bottom: 4px;
+.modal-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 
 
 }
-.div-label{
 
-   margin-bottom: 8px;
+.div-label {
+
+  margin-bottom: 8px;
 }
 
 
-.modal-symbol{
+.modal-symbol {
 
   position: relative;
 }
-.modal-input{
+
+.modal-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -628,29 +647,28 @@ margin-bottom: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus{
+.modal-input:focus {
   border-color: #4D5AE5;
 }
 
 
 
 
-.modal-icons{
-position: absolute;
-left: 16px;
-top: 50%;
-transform: translateY(-50%);
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+.modal-icons {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 
-.modal-input:focus 
-> .modal-icons{
-  fill: #4D5AE5; 
+.modal-input:focus>.modal-icons {
+  fill: #4D5AE5;
 }
 
-.div-area{
+.div-area {
 
   width: 100%;
   height: 120px;
@@ -660,29 +678,55 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  background-color: transparent; 
-  padding: 8px 16px; 
+  background-color: transparent;
+  padding: 8px 16px;
   outline: transparent;
   resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.div-area:focus{
+.div-area:focus {
   border-color: #4D5AE5;
 }
 
-.checkbox{
+.checkbox {
   margin-bottom: 24px;
+
+
 }
 
-.checkbox-label{
+.checkbox-input {
+  visibility: hidden;
 
-  font-size: 12px; 
+}
+
+.checkbox-label {
+
+  font-size: 12px;
   line-height: 1.17;
-   letter-spacing: 0.04em;
-   color: #8e8f99;;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  ;
 }
 
-.modal-comment{
+.modal-comment {
   margin-bottom: 16px;
+}
+
+.checkbox-span {
+height: 16px;
+width: 16px;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+fill: transparent;
+}
+
+
+.checkbox-link{
+  color: #4d5ae5;;
 }
