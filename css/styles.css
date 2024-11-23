@@ -459,6 +459,8 @@ h4 {
   display: flex;
   align-items: baseline;
   flex-direction: column;
+
+margin-right:80px ;
 }
 
 .footer-container {
@@ -479,6 +481,7 @@ h4 {
 .footer-list {
   display: flex;
   gap: 16px;
+
 }
 
 .footer-item {
@@ -634,7 +637,7 @@ h4 {
 .modal-symbol {
 
   position: relative;
-  margin-bottom: 16px;
+ 
 }
 
 .modal-input {
@@ -763,5 +766,101 @@ margin: 0 auto;
   
 }
 
+
+/* Footer form */
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-input-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-input {
+  flex: 1; 
+  padding: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 4px 0 0 4px; 
+  font-size: 16px;
+}
+
+.footer-textarea-p{
+
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-style: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+
+}
+
+
+
+.footer-label{
+gap: 24px;
+
+
+}
+
+.footer-input{
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-style: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+  border-radius: 4px;
+  color: #ffffff;
+
+}
+
+.E-mail{
+  color: #ffffff;
+}
+
+.footer-button{
+
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   font-family: "Roboto", sans-serif;
+   font-style: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+   cursor: pointer;
+   background-color: #4D5AE5;
+   border: none;
+   border-radius: 4px;
+}
+
+.footer-textarea-icon{
+
+  margin-left: 16px;
+  fill: #ffffff;
+}
 
 
